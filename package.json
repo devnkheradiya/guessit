@@ -18,6 +18,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "build:azure": "react-scripts build"
+
   },
   "eslintConfig": {
     "extends": [
@@ -35,6 +36,12 @@
       "last 1 chrome version",
       "last 1 firefox version",
       "last 1 safari version"
-    ]
+    ],
+    "devDependencies": {
+
+  "@babel/plugin-proposal-private-property-in-object" : "^7.14.5"
+    }
+  
+
   }
 }
